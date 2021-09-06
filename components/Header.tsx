@@ -1,4 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
@@ -9,6 +8,7 @@ const navigation = [
     { name: 'About', href: '#' },
     { name: 'Help', href: '#' },
 ]
+
 
 export default function Header() {
     return (
@@ -34,7 +34,7 @@ export default function Header() {
                                             <span className="sr-only">Workflow</span>
                                             <img
                                                 className="h-8 w-auto sm:h-10"
-                                                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                                                src="https://i.ibb.co/vPVqZ3H/logo.png"
                                             />
                                         </a>
                                         <div className="-mr-2 flex items-center md:hidden">
@@ -76,7 +76,7 @@ export default function Header() {
                                         <div>
                                             <img
                                                 className="h-8 w-auto"
-                                                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                                                src="https://i.ibb.co/vPVqZ3H/logo.png"
                                                 alt=""
                                             />
                                         </div>
@@ -145,8 +145,8 @@ export default function Header() {
             <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
                 <img
                     className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-                    src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
-                    alt=""
+                    src="https://i.ibb.co/G54Zv0H/banner2.png"
+                    alt="home banner"
                 />
             </div>
         </div>
