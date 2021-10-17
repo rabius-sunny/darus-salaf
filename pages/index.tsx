@@ -16,6 +16,12 @@ export default function IndexPage() {
   return <>
     <Head>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@3.0.6/css/line.css" />
+      <title>Darus Salaf Foundation</title>
+      <meta property="og:title" content="Darus Salaf Foundation" />
+      <meta property="og:description" content="A non-profit organization for preaching the Truth and Light of Islam with the guidance of the Holy Quran and Sahih Sunnah according to the footsteps of the Righteous Preceders." />
+      <meta property="og:image" content="/banner.png" />
+      <meta property="og:url" content="https://darussalaf.foundation" />
+      <meta name="keywords" content="darussalaf darus salaf salaf-salehin darus-salaf foundation preaching quran sahih sunnah preceders" />
     </Head>
     <Working />
     <div style={{ maxWidth: '1300px', margin: 'auto' }}>
