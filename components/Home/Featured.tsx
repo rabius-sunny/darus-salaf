@@ -1,29 +1,41 @@
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
+import { AcademicCapIcon, CodeIcon, TrendingUpIcon, GiftIcon, LibraryIcon, BookOpenIcon } from '@heroicons/react/outline'
 
 const features = [
   {
-    name: 'Honesty and Tranparancy',
+    name: 'Spread Education',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: GlobeAltIcon,
+      'Build full-featured library and Dawah Center for education, research and distribution.',
+    icon: TrendingUpIcon,
   },
   {
-    name: 'Honesty and Tranparancy',
+    name: 'Build Masjid and Madrasa',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: ScaleIcon,
+      'Construct Masjid and Madrasa for worshiping and spreading the healthy education.',
+    icon: LibraryIcon,
   },
   {
-    name: 'Transfers are instant',
+    name: 'Media and Softwares',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: LightningBoltIcon,
+      'Develope Furnished Online & Offline Dawah media and necessary Softwares.',
+    icon: CodeIcon,
   },
   {
-    name: 'Transfers are instant',
+    name: 'Training & Counseling',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-    icon: AnnotationIcon,
+      'Provide trainings and counselings on Dawah, Education, Tilawah, Ruqyah and other beneficial projects.',
+    icon: AcademicCapIcon,
+  },
+  {
+    name: 'Publish & Lectures',
+    description:
+      'Publish benificial Books, Leaflet, Booklet, Magazine, Research paper etc and arrange lectures and other functions.',
+    icon: BookOpenIcon,
+  },
+  {
+    name: 'Help the Needy',
+    description:
+      'Help the needy and helpless peoples and contribute on other sound social works.',
+    icon: GiftIcon,
   },
 ]
 
@@ -32,13 +44,12 @@ export default function Featured() {
     <div className="pt-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-base text-gray-700 font-semibold tracking-wide uppercase">about us</h2>
+          <h2 className="text-base text-gray-700 font-semibold tracking-wide uppercase">our goal</h2>
           <p className="mt-2 text-indigo-600 text-3xl leading-8 font-extrabold tracking-tight sm:text-4xl">
             Unity for preaching the Light and Truth
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
+            Some dedicated youngs who love Islam and want to raise capitals for the hereafter, help us to accomplish our aims, only for the sake of Allah
           </p>
         </div>
 
@@ -61,3 +72,4 @@ export default function Featured() {
     </div>
   )
 }
+

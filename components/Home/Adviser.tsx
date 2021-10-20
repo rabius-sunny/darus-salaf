@@ -14,7 +14,8 @@ export default function Adviser() {
         <div>
           <h1 className="text-3xl font-extrabold tracking-tight text-indigo-600 sm:text-4xl">Our Adviser</h1>
           <p className="mt-4 text-gray-500">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil perferendis sit vel, doloremque dolorem ipsum voluptatum quibusdam accusantium! Illo, dignissimos. quibusdam accusantium illo dignissimos.
+          Darus Salaf is backed by honorable scholars and advisors who always advise and help us. <br />
+          With their valuable advices we are being developed day by day, Alhamdulillah.
           </p>
 
           <dl className="mt-16 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
