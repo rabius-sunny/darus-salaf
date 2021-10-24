@@ -13,10 +13,10 @@ export default function Blog() {
                                 <div>
                                     <img className="w-full rounded-t-2xl" src="https://i.ibb.co/Xzgt22R/blog.jpg" />
                                     <div className="px-4 py-2">
-                                        <h1 className="text-xl text-gray-600 font-bold">This is blog title</h1>
+                                        <h1 className="text-xl text-gray-600 font-bold">Challenges that we're facing</h1>
                                         <div className="flex space-x-2 mt-2">
                                         </div>
-                                        <p className="text-sm tracking-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil deleniti delectus ea ipsam esse similique magni natus officiis? Ad quaerat vero adipisci placeat vel...</p>
+                                        <p className="text-sm tracking-normal">This is the blog portion of Darus Salaf. After publishing the site totally, you can find the latest blogs, news and work-updates here.</p>
                                         <button className="mt-12 w-full text-center bg-indigo-600 text-white py-2 rounded-lg">Read more</button>
                                     </div>
                                 </div>
@@ -27,10 +27,10 @@ export default function Blog() {
                                 <div>
                                     <img className="w-full rounded-t-2xl" src="https://i.ibb.co/Xzgt22R/blog.jpg" />
                                     <div className="px-4 py-2">
-                                        <h1 className="text-xl text-gray-600 font-bold">This is blog title</h1>
+                                        <h1 className="text-xl text-gray-600 font-bold">Challenges that we're facing</h1>
                                         <div className="flex space-x-2 mt-2">
                                         </div>
-                                        <p className="text-sm tracking-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil deleniti delectus ea ipsam esse similique magni natus officiis? Ad quaerat vero adipisci placeat vel...</p>
+                                        <p className="text-sm tracking-normal">This is the blog portion of Darus Salaf. After publishing the site totally, you can find the latest blogs, news and work-updates here.</p>
                                         <button className="mt-12 w-full text-center bg-indigo-600 text-white py-2 rounded-lg">Read more</button>
                                     </div>
                                 </div>
@@ -41,10 +41,10 @@ export default function Blog() {
                                 <div>
                                     <img className="w-full rounded-t-2xl" src="https://i.ibb.co/Xzgt22R/blog.jpg" />
                                     <div className="px-4 py-2">
-                                        <h1 className="text-xl text-gray-600 font-bold">This is blog title</h1>
+                                        <h1 className="text-xl text-gray-600 font-bold">Challenges that we're facing</h1>
                                         <div className="flex space-x-2 mt-2">
                                         </div>
-                                        <p className="text-sm tracking-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nihil deleniti delectus ea ipsam esse similique magni natus officiis? Ad quaerat vero adipisci placeat vel...</p>
+                                        <p className="text-sm tracking-normal">This is the blog portion of Darus Salaf. After publishing the site totally, you can find the latest blogs, news and work-updates here.</p>
                                         <button className="mt-12 w-full text-center bg-indigo-600 text-white py-2 rounded-lg">Read more</button>
                                     </div>
                                 </div>

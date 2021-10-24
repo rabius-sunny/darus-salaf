@@ -1,104 +1,67 @@
 
 export default function Footer() {
     return <footer className="bg-indigo-800 pt-10 sm:mt-10 pt-10">
-        <div className="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
+        <div className="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-between">
             <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
                 <div className="text-xs uppercase text-gray-400 font-medium mb-6">
                     Getting Started
                 </div>
 
                 <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Installation
+                    About Us
                 </a>
                 <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Release Notes
+                    Site map
                 </a>
                 <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Upgrade Guide
+                    Contact
                 </a>
                 <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Using with Preprocessors
+                    Projects
                 </a>
                 <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Optimizing for Production
+                    Help
                 </a>
                 <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Browser Support
-                </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    IntelliSense
+                    Upcoming Plans
                 </a>
             </div>
 
             <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
                 <div className="text-xs uppercase text-gray-400 font-medium mb-6">
-                    Core Concepts
+                    Important Links
                 </div>
 
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Utility-First
+                <a href="https://apnardeenijiggasa.com" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    ApnarDeeniJiggasa.Com
                 </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Responsive Design
+                <a href="https://redium.netlify.app" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Redium Blog
                 </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Hover, Focus, & Other States
+                <a href="https://islamhouse.com/bn" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Islam House
                 </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Dark Mode
+                <a href="https://www.hadithbd.com/" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Bangla Hadith
                 </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Adding Base Styles
-                </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Extracting Components
-                </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Adding New Utilities
+                <a href="http://ihadis.com/" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Al Hadith
                 </a>
             </div>
 
-            <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-                <div className="text-xs uppercase text-gray-400 font-medium mb-6">
-                    Customization
-                </div>
-
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Configuration
-                </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Theme Configuration
-                </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Breakpoints
-                </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Customizing Colors
-                </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Customizing Spacing
-                </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Configuring Variants
-                </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Plugins
-                </a>
-            </div>
-
-            <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+            <div className="p-5 w-1/2 sm:w-auto md:w-3/12">
                 <div className="text-xs uppercase text-gray-400 font-medium mb-6">
                     Community
                 </div>
 
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    GitHub
+                <a href="https://www.facebook.com/darussalaf.foundation/" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Facebook Page
                 </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Discord
+                <a href="https://github.com/rabius-sunny" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    Github
                 </a>
-                <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
-                    Twitter
+                <a href="https://linkedin.com/in/rabius-sunny" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
+                    LinkedIn
                 </a>
                 <a href="#" className="my-3 block text-gray-300 hover:text-gray-100 text-sm font-medium duration-700">
                     YouTube

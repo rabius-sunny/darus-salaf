@@ -8,8 +8,7 @@ export default function Projects() {
                 Explore Our Projects
               </h1>
               <p className="mt-4 text-xl text-gray-500">
-                This year, our new summer projects will shelter you from the harsh elements of a world that doesn't care
-                if you live or die.
+                Soon we will be shwoing running & upcoming latest projects here Insha Allah.
               </p>
             </div>
             <div>
@@ -84,7 +83,7 @@ export default function Projects() {
                   href="#"
                   className="inline-block text-center bg-indigo-600 border border-transparent rounded-md py-3 px-8 font-medium text-white hover:bg-indigo-700"
                 >
-                  See More
+                  See all Projects
                 </a>
               </div>
             </div>

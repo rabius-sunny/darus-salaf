@@ -49,7 +49,7 @@ export default function Featured() {
             Unity for preaching the Light and Truth
           </p>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Some dedicated youngs who love Islam and want to raise capitals for the hereafter, help us to accomplish our aims, only for the sake of Allah
+            Some dedicated youngs who love their Deen and want to raise capitals for the hereafter, help us to accomplish our goals, only for the sake of Allah
           </p>
         </div>
 

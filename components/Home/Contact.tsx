@@ -81,52 +81,15 @@ export default function Contact() {
 
                                 <div className="col-span-6">
                                     <label htmlFor="street-address" className="block text-sm font-medium text-gray-700">
-                                        Street address
+                                        Your Message
                                     </label>
-                                    <input
-                                        type="text"
-                                        name="street-address"
-                                        id="street-address"
-                                        autoComplete="street-address"
+                                    <textarea
+                                        rows={5}
+                                        name="your-message"
+                                        id="your-message"
+                                        autoComplete="your-message"
                                         className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-                                    />
-                                </div>
-
-                                <div className="col-span-6 sm:col-span-6 lg:col-span-2">
-                                    <label htmlFor="city" className="block text-sm font-medium text-gray-700">
-                                        City
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="city"
-                                        id="city"
-                                        className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-                                    />
-                                </div>
-
-                                <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-                                    <label htmlFor="state" className="block text-sm font-medium text-gray-700">
-                                        State / Province
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="state"
-                                        id="state"
-                                        className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-                                    />
-                                </div>
-
-                                <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-                                    <label htmlFor="postal-code" className="block text-sm font-medium text-gray-700">
-                                        ZIP / Postal
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="postal-code"
-                                        id="postal-code"
-                                        autoComplete="postal-code"
-                                        className="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
-                                    />
+                                    ></textarea>
                                 </div>
                             </div>
                         </div>
