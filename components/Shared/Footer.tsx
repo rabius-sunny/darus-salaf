@@ -74,7 +74,7 @@ export default function Footer() {
             border-t border-gray-500 text-gray-400 text-sm 
             flex-col md:flex-row max-w-6xl">
                 <div className="mt-2">
-                    © Copyright 1998-year. All Rights Reserved.
+                    © Copyright 2019-2021. || Darus Salaf Foundation. No Right Reserved.
                 </div>
 
                 <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
